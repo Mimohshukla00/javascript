@@ -1,0 +1,2 @@
+# javascript
+studied about javascript
