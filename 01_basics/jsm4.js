@@ -15,3 +15,9 @@ const isLoogedin = true
 const outsideTemp = null
 //undefined
 const isLoogedinMi = undefined
+//symbol
+// const id = symbol('123')
+// const anotherId = symbol('1234')
+
+// console.log( id === anotherId)
+
