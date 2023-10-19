@@ -21,3 +21,13 @@ const isLoogedinMi = undefined
 
 // console.log( id === anotherId)
 
+//**************************************************************************8
+//stack memory(permitive) ,heap memory (non permitive memory)
+
+
+let myNameis = "mimohshukla"
+
+let anotherName = shambolicmimoh
+
+console.log( anotherName);
+
