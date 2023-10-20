@@ -20,10 +20,19 @@ const gameName = new String ('mimohshukla')
 
 console.log(gameName[0]);
 console.log(gameName.charAt(2))
+console.log(gameName.anchor())
+// const newString = gameName.substring(-8,4)
+console.log(gameName.at(8))
+console.log(gameName.big())
+console.log(gameName.blink())
+console.log(gameName.charAt(3))
+console.log(gameName.codePointAt(2))
+console.log(gameName.concat(945438382188726637888743679545799826))
+console.log(gameName.length)
+console.log(gameName.localeCompare)
 
-const newString = gameName.substring(-8,4)
 
-console.log(newString);
+// console.log(newString);
 const anotherString =gameName.slice(-8,4) 
 console.log(anotherString);
 

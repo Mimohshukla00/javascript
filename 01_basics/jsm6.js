@@ -7,10 +7,12 @@ const balance = new Number(100)//it deifnes that it is sure for datatypes is num
 
 console.log(balance);
 
-console.log(balance.toString().length); //to change  into string 
-console.log(balance.toFixed(2)); //when precesion value is must be fixed
-const otherNumber = 233.88
-console.log(otherNumber.toPrecision(3))
+//console.log(balance.toString().length);
+ //to change  into string 
+console.log(balance.toFixed(2));
+ //when precesion value is must be fixed
+//const otherNumber = 233.88
+//console.log(otherNumber.toPrecision(3))
 
 
 
