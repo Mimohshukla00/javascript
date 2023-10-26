@@ -14,7 +14,7 @@ else {
 //"0",'false',"",{},[],function(){}
 
 let val1;
-val1 =5??10
+val1 =5 ?? 10
 val1 = null ??10
 //nullish coolescing opertaor
 console.log(val1);
