@@ -5,7 +5,7 @@
 //     default:
 //         break;          
 // }
-const month =6
+const month =6 
 switch(month){
     case 1:
         console.log("january");

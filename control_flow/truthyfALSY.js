@@ -14,7 +14,12 @@ else {
 //"0",'false',"",{},[],function(){}
 
 let val1;
-val1 =5 ?? 10
-val1 = null ??10
+// val1 =5 ?? 10
+// val1 = null ??10
 //nullish coolescing opertaor
+var1 = undefined ?? 15
 console.log(val1);
+// ternary operator
+condition ? true:false
+const iceTeaPrice =100
+iceTeaPrice >= 80?console.log("less than 80"):console.log("more than 80")
