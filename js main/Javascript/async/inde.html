@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="background-color: black;color: aliceblue;">
+    <h1>chai aur code</h1>
+    <button id="mimoh">Stop</button>
+    
+</body>
+<script>
+
+    const saymimoh=function (params) {
+        console.log("mimohshukls");
+        
+    }
+    const cahngenamed=function (name) {
+        document.querySelector('h1').innerHTML="Whomimohshukla"
+        alert("Name is changed ")
+
+        
+    }
+    const changeName=setTimeout(cahngenamed,2000)
+
+
+    document.querySelector("#mimoh").addEventListener("click",function (params) {
+        clearTimeout(changeName)
+        console.log("stopped");
+        alert("stopped")
+    })
+
+    // clearTimeout(changeName)
+
+
+
+</script>
+</html>

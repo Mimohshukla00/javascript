@@ -1,0 +1,4 @@
+{
+    "livePreview.customExternalBrowser": "Firefox",
+    "liveServer.settings.CustomBrowser": "firefox:PrivateMode"
+}
