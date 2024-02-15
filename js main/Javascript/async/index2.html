@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="background-color: black; color: rgb(235, 40, 40);">
+    <h1>hello!</h1>
+    <button id="Start">Start</button>
+    <button id="stop">Stop</button>
+</body>
+<script>
+
+
+
+
+    const time =function (params) {
+        console.log("mimohshukla",Date.now());
+        
+    }
+    document.querySelector("#Start").addEventListener("click",function (params) {
+        setInterval(time,2000)
+       alert("started")
+
+    
+})
+    document.querySelector("#stop").addEventListener("click",function (params) {
+        clearInterval(time,2000)
+       alert("stoped")
+
+    
+})
+
+
+</script>
+</html>
