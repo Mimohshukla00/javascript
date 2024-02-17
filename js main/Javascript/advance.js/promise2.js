@@ -16,5 +16,10 @@ const promise5 = new Promise((resolve, reject) => {
       console.log(error);
     }
   }
-  consumePromisefive()
+  // consumePromisefive()
+
+  async function grtAllUsers() {
+    const response=fetch("https://api.github.com/users/hiteshchoudhary")
+    console.log(typeof response);
+  }
   

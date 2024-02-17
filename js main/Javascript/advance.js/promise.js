@@ -43,7 +43,7 @@ const promise4 = new Promise((resolve, reject) => {
 promise4
   .then(function (params) {
     return params.name;
-    console.log(username);
+    console.log(name);
   })
   .then(function (username) {
     console.log(username);
