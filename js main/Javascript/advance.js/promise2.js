@@ -18,8 +18,4 @@ const promise5 = new Promise((resolve, reject) => {
   }
   // consumePromisefive()
 
-  async function grtAllUsers() {
-    const response=fetch("https://api.github.com/users/hiteshchoudhary")
-    console.log(typeof response);
-  }
   
