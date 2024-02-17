@@ -30,7 +30,7 @@ promise3.then(function (data) {
 
 const promise4 = new Promise((resolve, reject) => {
   setInterval(function () {
-    let error = false;
+    const error = false;
     if (!error) {
       resolve({ name: "hiteshsir", gmail: "hiteshchaudhary@gmail.com" });
     } else {
@@ -43,7 +43,7 @@ const promise4 = new Promise((resolve, reject) => {
 promise4
   .then(function (params) {
     return params.name;
-    console.log(name);
+    // console.log(name);
   })
   .then(function (username) {
     console.log(username);
@@ -54,4 +54,3 @@ promise4
   .finally(function () {
     console.log("finally promise is terminated ");
   });
-
